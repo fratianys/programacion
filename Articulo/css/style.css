@@ -1,5 +1,5 @@
 header #encabezado {
-
+    margin = ;
 }
 
 #titulo {
@@ -15,10 +15,44 @@ main button#btn-adopta {
     color: white;
     font-weight: bold;
     font-size: 20px;
-    display: ;
 }
 
 main section.container-button {
+    text-align: center;
+}
 
-    
+section.historia {
+    width: 50%;
+    margin: 20px auto;
+    padding: 15px;
+}
+
+section.historia img.perrito {
+    margin-right: 15px;
+    float: left;
+}
+
+section article.historia p {
+    text-align: justify;
+}
+
+footer {
+    background-color: rgba(66, 107, 31, 0.79);
+    position: 100%;
+    padding: 1rem;
+    color: rgb(255, 255, 255); 
+    float:inline-end;
+}
+
+
+footer a{
+    float: right;
+    padding: 1rem;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+footer p {
+    padding: 1rem;
+    margin: 0;
 }
