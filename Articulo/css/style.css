@@ -1,5 +1,22 @@
-header #encabezado {
-    margin: 0;
+header {
+    width: 100%;
+}
+
+header h3#logo {
+    float: left;
+    padding: 1rem;
+}
+
+header ul#navegacion li {
+    display: inline;
+    padding: 1rem;
+    padding-left: 4px;
+    padding-right: 4px;
+    
+}
+
+header ul#navegacion {
+    text-align: right;
 }
 
 #titulo {
@@ -38,8 +55,8 @@ footer {
     background-color: rgba(66, 107, 31, 0.79);;
     padding: 2rem;
     color: rgb(255, 255, 255);
-    margin-bottom: 100%;
     position: relative;
+    width: 100%;
 }
 
 
