@@ -1,5 +1,6 @@
 header {
     width: 100%;
+    padding-top: 1px;
 }
 
 header h3#logo {
@@ -34,6 +35,7 @@ ul#navegacion li button#btn-titulo {
 div.container-button{
     text-align: center;
     line-height: 0%;
+    padding-top: 0px;
 }
 
 div h1#cabecera {
@@ -70,6 +72,7 @@ img.perrito {
     width: 400px;
     height: 400px;
     padding-top: 0px;
+    padding-left: 100px;
 }
 
 
@@ -92,4 +95,34 @@ footer a{
 footer p {
     padding: 1rem;
     margin: 10px;
+}
+
+.whatsapp-boton {
+    background-color: #426B1F;
+    border: 1px solid #FFFFFF;
+    position: fixed;
+    border-radius: 50%;
+    bottom: 10px;
+    padding: 5px;
+    transition: ease 0.3s;
+    display: flex;
+}
+
+img.boton {
+    right: 25px;
+    float: right;
+    width: 40px;
+    height: 40px;
+    z-index: 999;
+    padding: 1rem;
+}
+
+.whatsapp-boton:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.boton {
+    width: 80px;
+    transition: ease 1s;
 }
