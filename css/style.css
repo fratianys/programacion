@@ -1,11 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header {
     width: 100%;
-    padding-top: 1px;
+    padding-top: 4px;
 }
 
 header h3#logo {
     float: left;
-    padding: 7px;
+    padding: 28px;
     font-size: 30px;
     color: #426B1F;
 }
@@ -29,18 +35,20 @@ ul#navegacion li button#btn-titulo {
     color: white;
     font-weight: bold;
     font-size: 20px;
+    cursor: pointer;
 }
 
 
 div.container-button{
     text-align: center;
     line-height: 0%;
-    padding-top: 0px;
+    padding-top: 30px;
+    padding-bottom: 40px;
 }
 
 div h1#cabecera {
-    padding-top: 150px;
-    padding-bottom: 20px;
+    padding-top: 100px;
+    padding-bottom: 70px;
     font-size: 64px;
     text-align: center;
 }
@@ -55,15 +63,25 @@ div button#btn-adopta {
     font-size: 20px;
     padding-top: 0px;
     text-align: center;
+    cursor: pointer;
 }
 
-article.post {
+.cajas {
+    width: 1124px;
+    margin: 0 auto;
+}
+
+article.historiaperrito {
     transition: all box-shadow 0.3s ease;
-    background-color: rgba(240, 179, 125, 0.734);
+    background-color: rgba(222, 216, 210, 0.734);
     margin: 1rem 0;
     border-radius: 0.5rem;
     padding: 0.5rem 0;
     cursor: pointer;
+}
+
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(30, 15, 2, 0.734);
 }
 
 .historia {
@@ -71,6 +89,12 @@ article.post {
     justify-content: left;
     padding-top: 100px;
     padding-bottom: 100px;
+    padding-right: 100px;
+}
+
+.historia h4 {
+    padding: 1px;
+    padding-left: 2px;
 }
 
 
@@ -78,11 +102,41 @@ img.perrito {
     align-items: center;
     float: left;
     width: 400px;
-    height: 400px;
-    padding-top: 0px;
-    padding-left: 100px;
+    height: 300px;
+    padding-left: 60px;
 }
 
+.imagenes img {
+    flex: center;
+    padding: 40px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.form {
+    padding: 40px;
+}
+
+.form #adoptaform{
+    font-size: 20px;
+}
+
+.control {
+    padding: 2px;
+    width: 500px;
+}
+
+.form  {
+    padding: 10px;
+}
+
+.form.boton {
+    background-color: #426B1F;
+    width: 227px;
+    height: 64px;
+    border-radius: 8px;
+    color: white;
+}
 
 footer {
     background-color: rgba(66, 107, 31, 0.79);;
@@ -93,7 +147,7 @@ footer {
 }
 
 
-footer a{
+footer a {
     float: right;
     padding: 1rem;
     text-decoration: none;
@@ -105,32 +159,13 @@ footer p {
     margin: 10px;
 }
 
-.whatsapp-boton {
-    background-color: #426B1F;
-    border: 1px solid #FFFFFF;
-    position: fixed;
-    border-radius: 50%;
-    bottom: 10px;
-    padding: 5px;
-    transition: ease 0.3s;
-    display: flex;
+.whatsappboton img {
+    padding: 1px;
+    margin: 0;
+    float: left;
 }
 
-img.boton {
-    right: 25px;
-    float: right;
-    width: 40px;
-    height: 40px;
-    z-index: 999;
-    padding: 1rem;
-}
-
-.whatsapp-boton:hover {
+.whatsappboton:hover {
     transform: scale(1.1);
-    transition: 0.2s;
-}
-
-.boton {
-    width: 80px;
-    transition: ease 1s;
+    transition: 0.1s;
 }
