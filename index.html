@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css"/>
+    <href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -36,37 +37,51 @@
                       <li>Estándar.</li>
                       <li>Gigante.</li>
                      </ul>
-                     </div>
+                </div>
                 </div>
             </article>
             <article class="historiaperrito">
+                <h4 id="conoce">Conócenos</h4>
                 <div class="imagenes">
-                    <img src="IMG/perros3.png">
-                    <img src="IMG/perros4.png">
-                    <img src="IMG/perros5.png">
+                    <div class="one">
+                        <img src="IMG/perros3.png">
+                        <h5>3 Meses</h5>
+                    </div>
+                    <div class="two"> 
+                        <img src="IMG/perros4.png">
+                        <h5>2 Meses</h5>
+                    </div>
+                    <div class="three">
+                        <img src="IMG/perros5.png">
+                        <h5>4 Meses</h5>
+                    </div>
                 </div>
             </article>
             <article class="historiaperrito">
                 <div class="form">
-                    <h4 id="adoptaform">Adopta</h4>
-                    <div>
-                        <input class="control1" type="name" name="nombres" id="nombres" placeholder="Ingrese su Nombre Completo">
-                        <input class="control2" type="phone" name="telefono" id="telefono" placeholder="Ingrese su Número de Teléfono">
-                        <input class="control3" type="email" name="correo" id="correo" placeholder="Ingrese su correo electrónico">
-                        <input class="control4" type="information" name="informacion" id="informacion" placeholder="Déjanos saber tu Schnauzer preferido">
-                    </div>
-                    <input class="boton" type="submit" value="Enviar">
-                    </div>
+                    <h4 id="adoptaform">Adopta Aquí</h4>
+                    <form class="control1y2">
+                        <input id="control1" type="name" name="nombres" id="nombres" placeholder="Nombre Completo">
+                        <input id="control2" type="phone" name="telefono" id="telefono" placeholder="Número de Teléfono">
+                    </form>
+                    <form class="correo">
+                        <input id="control3" type="email" name="correo" id="correo" placeholder="Correo electrónico">
+                    </form>    
+                    <form class="masinfo">
+                        <textarea id="control4" type="information" name="informacion" id="informacion" placeholder="Déjanos saber tu Schnauzer preferido"></textarea>
+                    </form>
+                    <form class="envia">
+                        <input id="btn-enviar" type="submit" name="Enviar" value="Enviar">
+                    </form>
+                </div>    
             </article>
         </section></main>
+    <a class="whatsappboton" target="_blank"href="https://wa.me/573175540268?text=Hola, deseo adoptar un schnauzer.">
+            <img src="IMG/whatp.png">
+    </a>
     <footer>
         <a href="#btn-titulo">Ir al inicio</a>
         <p>Copyright 2023</p>
-        <div class="whatsappboton">
-            <a href="https://web.whatsapp.com/"  target="_blank">
-                <img src="IMG/whatp.png"> 
-            </a>
-        </div>
     </footer>
 </body>
 </html>
